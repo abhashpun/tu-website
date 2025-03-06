@@ -1,0 +1,151 @@
+/* About Page Container */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-hero p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* About Section */
+  .about-section {
+    margin: 4rem 0;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Core Values Section */
+  .core-values {
+    margin: 4rem 0;
+    text-align: center;
+  }
+  
+  .core-values h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .value-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .value-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .value-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Achievements Section */
+  .achievements {
+    margin: 4rem 0;
+    text-align: center;
+  }
+  
+  .achievements h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .achievement-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .achievement-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .achievement-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Campus Life Section */
+  .campus-life {
+    margin: 4rem 0;
+    text-align: center;
+  }
+  
+  .campus-life h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .campus-life p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+  
+  .campus-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .campus-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .campus-gallery img:hover {
+    transform: scale(1.05);
+  }
