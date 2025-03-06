@@ -6,6 +6,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Courses from './components/Courses';
 import Contact from './components/Contact';
+import Notices from './components/Notices'; // Import the Notices component
+import './styles/App.css';
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/notices" element={<Notices />} /> {/* Add route for Notices Page */}
       </Routes>
       <Footer />
     </Router>
