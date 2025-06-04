@@ -55,7 +55,7 @@ const Notices = () => {
 
         {/* Random Quote Section */}
         <div className="quote-card">
-          <h3>Daily Inspiration</h3>
+          <h3>Inspiration Quote:</h3>
           {loading ? (
             <p>Loading quote...</p>
           ) : error ? (
